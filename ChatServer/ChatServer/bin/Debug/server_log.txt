@@ -1,0 +1,11 @@
+[LOG] 9/21/2025 12:13:43 AM: Klien 'Kemal' terhubung.
+[LOG] 9/21/2025 12:14:33 AM: Klien 'Nopal' terhubung.
+[CHAT] 9/21/2025 12:14:48 AM: Kemal: Test
+[LOG] 9/21/2025 12:15:02 AM: Klien 'Kemal' terputus.
+[LOG] 9/21/2025 12:15:03 AM: Klien 'Nopal' terputus.
+[LOG] 9/21/2025 12:24:59 AM: Klien 'Nopal' terhubung.
+[LOG] 9/21/2025 12:25:00 AM: Klien 'Kemal' terhubung.
+[CHAT] 9/21/2025 12:25:10 AM: Nopal: Test
+[CHAT] 9/21/2025 12:25:14 AM: Kemal: Test
+[LOG] 9/21/2025 12:25:22 AM: Klien 'Nopal' terputus.
+[LOG] 9/21/2025 12:25:25 AM: Klien 'Kemal' terputus.

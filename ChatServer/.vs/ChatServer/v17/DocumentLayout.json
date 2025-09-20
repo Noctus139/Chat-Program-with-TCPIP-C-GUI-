@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Yoga\\Kuliah\\Semester 5\\Jaringan\\Chat Program with TCPIP (C# \u002B GUI)\\ChatServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9417C82-523C-48BA-AD69-899309030077}|ChatServer\\ChatServer.csproj|d:\\yoga\\kuliah\\semester 5\\jaringan\\chat program with tcpip (c# \u002B gui)\\chatserver\\chatserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9417C82-523C-48BA-AD69-899309030077}|ChatServer\\ChatServer.csproj|solutionrelative:chatserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Yoga\\Kuliah\\Semester 5\\Jaringan\\Chat Program with TCPIP (C# \u002B GUI)\\ChatServer\\ChatServer\\Program.cs",
+              "RelativeDocumentMoniker": "ChatServer\\Program.cs",
+              "ToolTip": "D:\\Yoga\\Kuliah\\Semester 5\\Jaringan\\Chat Program with TCPIP (C# \u002B GUI)\\ChatServer\\ChatServer\\Program.cs",
+              "RelativeToolTip": "ChatServer\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwPwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:48:06.514Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
