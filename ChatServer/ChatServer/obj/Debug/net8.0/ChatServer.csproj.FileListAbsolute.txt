@@ -1,0 +1,29 @@
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatAppSolution\ChatServer\bin\Debug\net8.0\ChatServer.exe
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatAppSolution\ChatServer\bin\Debug\net8.0\ChatServer.deps.json
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatAppSolution\ChatServer\bin\Debug\net8.0\ChatServer.runtimeconfig.json
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatAppSolution\ChatServer\bin\Debug\net8.0\ChatServer.dll
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatAppSolution\ChatServer\bin\Debug\net8.0\ChatServer.pdb
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatAppSolution\ChatServer\obj\Debug\net8.0\ChatServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatAppSolution\ChatServer\obj\Debug\net8.0\ChatServer.AssemblyInfoInputs.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatAppSolution\ChatServer\obj\Debug\net8.0\ChatServer.AssemblyInfo.cs
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatAppSolution\ChatServer\obj\Debug\net8.0\ChatServer.csproj.CoreCompileInputs.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatAppSolution\ChatServer\obj\Debug\net8.0\ChatServer.dll
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatAppSolution\ChatServer\obj\Debug\net8.0\refint\ChatServer.dll
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatAppSolution\ChatServer\obj\Debug\net8.0\ChatServer.pdb
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatAppSolution\ChatServer\obj\Debug\net8.0\ChatServer.genruntimeconfig.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatAppSolution\ChatServer\obj\Debug\net8.0\ref\ChatServer.dll
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\bin\Debug\net8.0\ChatServer.exe
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\bin\Debug\net8.0\ChatServer.deps.json
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\bin\Debug\net8.0\ChatServer.runtimeconfig.json
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\bin\Debug\net8.0\ChatServer.dll
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\bin\Debug\net8.0\ChatServer.pdb
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.AssemblyInfoInputs.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.AssemblyInfo.cs
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.csproj.CoreCompileInputs.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.sourcelink.json
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.dll
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\obj\Debug\net8.0\refint\ChatServer.dll
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.pdb
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\obj\Debug\net8.0\ChatServer.genruntimeconfig.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\obj\Debug\net8.0\ref\ChatServer.dll

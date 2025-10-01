@@ -1,0 +1,39 @@
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.exe
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.deps.json
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.runtimeconfig.json
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.dll
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.pdb
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\obj\Debug\net8.0-windows\App.g.cs
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient_MarkupCompile.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.g.resources
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.AssemblyInfoInputs.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.AssemblyInfo.cs
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.csproj.CoreCompileInputs.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.dll
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\obj\Debug\net8.0-windows\refint\ChatClient.dll
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.pdb
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.genruntimeconfig.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Programs Migrated dotnet 8.0\ChatClient\ChatClient\obj\Debug\net8.0-windows\ref\ChatClient.dll
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.exe
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.deps.json
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.runtimeconfig.json
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.dll
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\bin\Debug\net8.0-windows\ChatClient.pdb
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Debug\net8.0-windows\App.g.cs
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient_MarkupCompile.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.g.resources
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.AssemblyInfoInputs.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.AssemblyInfo.cs
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.csproj.CoreCompileInputs.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.sourcelink.json
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.dll
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Debug\net8.0-windows\refint\ChatClient.dll
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.pdb
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Debug\net8.0-windows\ChatClient.genruntimeconfig.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Debug\net8.0-windows\ref\ChatClient.dll

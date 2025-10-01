@@ -1,7 +1,0 @@
-D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\bin\Release\ChatServer.exe.config
-D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\bin\Release\ChatServer.exe
-D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\bin\Release\ChatServer.pdb
-D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\obj\Release\ChatServer.csproj.AssemblyReference.cache
-D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\obj\Release\ChatServer.csproj.CoreCompileInputs.cache
-D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\obj\Release\ChatServer.exe
-D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatServer\ChatServer\obj\Release\ChatServer.pdb

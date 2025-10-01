@@ -1,0 +1,124 @@
+[LOG] 10/2/2025 12:33:41 AM: Client 'user1' connected.
+[LOG] 10/2/2025 12:33:54 AM: Client 'user2' connected.
+[CHAT] 10/2/2025 12:34:02 AM: PM from user1 to user2: test
+[CHAT] 10/2/2025 12:34:21 AM: user1: test
+[CHAT] 10/2/2025 12:34:25 AM: user2: p
+[CHAT] 10/2/2025 12:34:26 AM: user2: p
+[CHAT] 10/2/2025 12:34:26 AM: user2: p
+[CHAT] 10/2/2025 12:34:26 AM: user2: p
+[CHAT] 10/2/2025 12:34:26 AM: user2: p
+[CHAT] 10/2/2025 12:34:26 AM: user2: p
+[CHAT] 10/2/2025 12:34:26 AM: user2: p
+[CHAT] 10/2/2025 12:34:26 AM: user2: p
+[CHAT] 10/2/2025 12:34:27 AM: user2: p
+[CHAT] 10/2/2025 12:34:27 AM: user2: p
+[CHAT] 10/2/2025 12:34:27 AM: user2: pp
+[CHAT] 10/2/2025 12:34:27 AM: user2: p
+[CHAT] 10/2/2025 12:34:27 AM: user2: p
+[CHAT] 10/2/2025 12:34:27 AM: user2: p
+[CHAT] 10/2/2025 12:34:28 AM: user2: pp
+[CHAT] 10/2/2025 12:34:34 AM: user2: p
+[CHAT] 10/2/2025 12:34:34 AM: user2: p
+[CHAT] 10/2/2025 12:34:34 AM: user2: p
+[CHAT] 10/2/2025 12:34:34 AM: user2: p
+[CHAT] 10/2/2025 12:34:34 AM: user2: p
+[CHAT] 10/2/2025 12:34:34 AM: user2: p
+[CHAT] 10/2/2025 12:34:34 AM: user2: p
+[CHAT] 10/2/2025 12:34:34 AM: user2: p
+[CHAT] 10/2/2025 12:34:35 AM: user2: p
+[CHAT] 10/2/2025 12:34:35 AM: user2: p
+[CHAT] 10/2/2025 12:34:35 AM: user2: p
+[CHAT] 10/2/2025 12:34:35 AM: user2: p
+[CHAT] 10/2/2025 12:34:35 AM: user2: p
+[CHAT] 10/2/2025 12:34:35 AM: user2: p
+[LOG] 10/2/2025 12:34:40 AM: Client 'user2' disconnected.
+[LOG] 10/2/2025 12:34:42 AM: Client 'user1' disconnected.
+[LOG] 10/2/2025 12:50:27 AM: Client 'user4' connected.
+[LOG] 10/2/2025 12:50:28 AM: Client 'user2' connected.
+[LOG] 10/2/2025 12:50:29 AM: Client 'user5' connected.
+[LOG] 10/2/2025 12:50:30 AM: Client 'user1' connected.
+[CHAT] 10/2/2025 12:50:40 AM: user4: p
+[CHAT] 10/2/2025 12:50:40 AM: user4: p
+[CHAT] 10/2/2025 12:50:40 AM: user4: p
+[CHAT] 10/2/2025 12:50:40 AM: user4: p
+[CHAT] 10/2/2025 12:50:40 AM: user4: p
+[CHAT] 10/2/2025 12:50:40 AM: user4: p
+[CHAT] 10/2/2025 12:50:41 AM: user4: p
+[CHAT] 10/2/2025 12:50:41 AM: user4: pp
+[CHAT] 10/2/2025 12:50:42 AM: user4: p
+[CHAT] 10/2/2025 12:50:51 AM: user4: test
+[CHAT] 10/2/2025 12:50:52 AM: user4: test
+[CHAT] 10/2/2025 12:50:52 AM: user4: test
+[CHAT] 10/2/2025 12:50:53 AM: user4: test
+[CHAT] 10/2/2025 12:50:54 AM: user4: test
+[CHAT] 10/2/2025 12:50:55 AM: user4: test
+[CHAT] 10/2/2025 12:51:02 AM: user4: test
+[CHAT] 10/2/2025 12:51:03 AM: user4: test
+[CHAT] 10/2/2025 12:51:04 AM: user4: test
+[CHAT] 10/2/2025 12:51:04 AM: user4: test
+[CHAT] 10/2/2025 12:51:05 AM: user4: test
+[CHAT] 10/2/2025 12:51:11 AM: user4: p
+[CHAT] 10/2/2025 12:51:12 AM: user4: p
+[CHAT] 10/2/2025 12:51:12 AM: user4: p
+[CHAT] 10/2/2025 12:51:13 AM: user4: p
+[CHAT] 10/2/2025 12:51:13 AM: user4: p
+[CHAT] 10/2/2025 12:51:13 AM: user4: p
+[CHAT] 10/2/2025 12:51:13 AM: user4: p
+[CHAT] 10/2/2025 12:51:14 AM: user4: p
+[CHAT] 10/2/2025 12:51:14 AM: user4: p
+[CHAT] 10/2/2025 12:51:14 AM: user4: p
+[CHAT] 10/2/2025 12:51:14 AM: user4: p
+[CHAT] 10/2/2025 12:51:14 AM: user4: p
+[CHAT] 10/2/2025 12:51:15 AM: user4: p
+[CHAT] 10/2/2025 12:51:15 AM: user4: p
+[CHAT] 10/2/2025 12:51:15 AM: user4: pp
+[CHAT] 10/2/2025 12:51:39 AM: user4: 1
+[CHAT] 10/2/2025 12:51:40 AM: user4: 1
+[CHAT] 10/2/2025 12:51:40 AM: user4: 1
+[CHAT] 10/2/2025 12:51:40 AM: user4: 1
+[CHAT] 10/2/2025 12:51:40 AM: user4: 1
+[CHAT] 10/2/2025 12:51:40 AM: user4: 1
+[CHAT] 10/2/2025 12:51:41 AM: user4: 1
+[CHAT] 10/2/2025 12:51:41 AM: user4: 1
+[CHAT] 10/2/2025 12:51:41 AM: user4: 1
+[CHAT] 10/2/2025 12:51:43 AM: user4: 1
+[CHAT] 10/2/2025 12:51:45 AM: user4: 5
+[CHAT] 10/2/2025 12:51:45 AM: user4: 5
+[CHAT] 10/2/2025 12:51:45 AM: user4: 5
+[CHAT] 10/2/2025 12:51:45 AM: user4: 5
+[CHAT] 10/2/2025 12:51:45 AM: user4: 5
+[CHAT] 10/2/2025 12:51:45 AM: user4: 5
+[CHAT] 10/2/2025 12:51:46 AM: user4: 5
+[CHAT] 10/2/2025 12:51:46 AM: user4: 5
+[CHAT] 10/2/2025 12:51:46 AM: user4: 55
+[CHAT] 10/2/2025 12:51:46 AM: user4: 5
+[CHAT] 10/2/2025 12:51:46 AM: user4: 5
+[CHAT] 10/2/2025 12:51:47 AM: user4: 5
+[CHAT] 10/2/2025 12:51:47 AM: user4: 5
+[CHAT] 10/2/2025 12:51:47 AM: user4: 5
+[CHAT] 10/2/2025 12:51:47 AM: user4: 5
+[CHAT] 10/2/2025 12:51:47 AM: user4: 5
+[CHAT] 10/2/2025 12:51:47 AM: user4: 5
+[CHAT] 10/2/2025 12:51:52 AM: user4: ?
+[CHAT] 10/2/2025 12:51:56 AM: user4: A
+[CHAT] 10/2/2025 12:51:57 AM: user4: A
+[CHAT] 10/2/2025 12:51:57 AM: user4: A
+[CHAT] 10/2/2025 12:51:57 AM: user4: S
+[CHAT] 10/2/2025 12:51:57 AM: user4: SD
+[CHAT] 10/2/2025 12:51:58 AM: user4: S
+[CHAT] 10/2/2025 12:51:58 AM: user4: D
+[CHAT] 10/2/2025 12:51:58 AM: user4: XC
+[CHAT] 10/2/2025 12:51:58 AM: user4: XZC
+[CHAT] 10/2/2025 12:51:58 AM: user4: SAD
+[CHAT] 10/2/2025 12:51:59 AM: user4: DW
+[CHAT] 10/2/2025 12:51:59 AM: user4: DS
+[CHAT] 10/2/2025 12:51:59 AM: user4: DAS
+[CHAT] 10/2/2025 12:51:59 AM: user4: D
+[LOG] 10/2/2025 12:52:32 AM: Client 'user4' disconnected.
+[ERROR] 10/2/2025 12:52:39 AM: Error handling client 'user1': Object reference not set to an instance of an object.
+[LOG] 10/2/2025 12:52:39 AM: Client 'user1' disconnected.
+[ERROR] 10/2/2025 12:52:41 AM: Error handling client 'user1': Object reference not set to an instance of an object.
+[LOG] 10/2/2025 12:52:41 AM: Client 'user1' disconnected.
+[LOG] 10/2/2025 12:52:58 AM: Client 'user2' disconnected.
+[LOG] 10/2/2025 12:52:59 AM: Client 'user5' disconnected.
+[LOG] 10/2/2025 12:53:00 AM: Client 'user1' disconnected.
