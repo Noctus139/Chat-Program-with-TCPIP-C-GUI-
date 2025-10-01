@@ -16,18 +16,31 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <TextBlock Grid.Row="0" Text="ONLINE USERS" Name="UserListHeader" Foreground="#8E9297" Margin="10,10,10,5" FontWeight="SemiBold"/>
+
                 <ListView Grid.Row="1" Name="lstUsers" Background="Transparent" BorderBrush="Transparent" Foreground="#DCDDDE"
-                          SelectionMode="Single" MouseDoubleClick="lstUsers_MouseDoubleClick">
+                          SelectionMode="Single"
+                          ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+
+                    <ListView.Template>
+                        <ControlTemplate TargetType="{x:Type ListView}">
+                            <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="True">
+                                <ScrollViewer CanContentScroll="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="{TemplateBinding ScrollViewer.VerticalScrollBarVisibility}">
+                                    <ItemsPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                </ScrollViewer>
+                            </Border>
+                        </ControlTemplate>
+                    </ListView.Template>
+
                     <ListView.ItemContainerStyle>
                         <Style TargetType="ListViewItem">
                             <Setter Property="Background" Value="Transparent"/>
                             <Setter Property="BorderBrush" Value="Transparent"/>
                             <Setter Property="Focusable" Value="False"/>
-                            <Setter Property="Padding" Value="5,2"/>
+                            <Setter Property="Padding" Value="0,0"/>
                             <Setter Property="Template">
                                 <Setter.Value>
                                     <ControlTemplate TargetType="ListViewItem">
-                                        <Border Name="border" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="True"
+                                        <Border Name="border" Padding="5,2" SnapsToDevicePixels="True"
                                                 Background="{TemplateBinding Background}">
                                             <ContentPresenter/>
                                         </Border>
@@ -41,6 +54,27 @@
                             </Setter>
                         </Style>
                     </ListView.ItemContainerStyle>
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Width="{Binding RelativeSource={RelativeSource AncestorType={x:Type ListView}}, Path=ActualWidth}">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Text="{Binding}" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,5,0"
+                                           Foreground="{Binding Path=Foreground, RelativeSource={RelativeSource AncestorType={x:Type ListView}}}" />
+
+                                <Button Content="PM" Grid.Column="1"
+                                        Background="#7289DA" Foreground="White" BorderBrush="#7289DA"
+                                        Width="45" Padding="0" Margin="0"
+                                        FontSize="10" FontWeight="SemiBold"
+                                        Click="PmButton_Click"
+                                        CommandParameter="{Binding}"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
                 </ListView>
             </Grid>
         </Border>
@@ -69,18 +103,18 @@
                 <RadioButton Name="DarkModeRadio" Content="Gelap" VerticalAlignment="Center" GroupName="Theme" Checked="DarkModeRadio_Checked" Foreground="#B9BBBE"/>
             </StackPanel>
 
-            <ListBox Grid.Row="1" Name="lstChat" Margin="10,0,10,10" Background="#36393F" BorderBrush="Transparent" Foreground="#DCDDDE"/>
+            <ListBox Grid.Row="1" Name="lstChat" Margin="10,10,10,5" Background="#36393F" BorderBrush="Transparent" Foreground="#DCDDDE"/>
 
             <TextBlock Grid.Row="2" Name="TypingIndicator" Margin="15,0,10,5" Foreground="#7289DA" FontStyle="Italic"/>
 
             <Grid Grid.Row="3" Margin="10,0,10,10">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="823*"/>
-                    <ColumnDefinition Width="37*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <TextBox Name="txtMessage" Grid.Column="0" KeyDown="txtMessage_KeyDown" TextChanged="txtMessage_TextChanged"
-                         Background="#40444B" BorderBrush="#202225" Foreground="#DCDDDE" Padding="5" Margin="0,-26,0,26"/>
-                <Button Name="btnSend" Grid.Column="1" Content="Send" Margin="3,-26,3,26" Click="btnSend_Click" IsEnabled="False"
+                         Background="#40444B" BorderBrush="#202225" Foreground="#DCDDDE" Padding="5"/>
+                <Button Name="btnSend" Grid.Column="1" Content="Send" Margin="5,0,0,0" Click="btnSend_Click" IsEnabled="False"
                         Background="#7289DA" Foreground="White" BorderBrush="#7289DA"/>
             </Grid>
         </Grid>

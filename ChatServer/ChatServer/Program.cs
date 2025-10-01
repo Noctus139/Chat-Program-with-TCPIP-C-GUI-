@@ -77,6 +77,7 @@ class Program
                     semaphore.Release();
                 }
 
+                // [PERBAIKAN 1]: Mengirim notifikasi dan daftar user segera setelah join
                 await BroadcastMessage($"[SYSTEM] {username} telah bergabung.", null);
                 await SendUserListToAllClients();
             }
@@ -102,10 +103,12 @@ class Program
                 }
                 else if (message == "/typing-start")
                 {
+                    // [PERBAIKAN 3]: Server menerima sinyal typing dan menyiarkannya
                     await BroadcastMessageWithPrefix("/typing-start", username, client);
                 }
                 else if (message == "/typing-end")
                 {
+                    // [PERBAIKAN 3]: Server menerima sinyal typing-end dan menyiarkannya
                     await BroadcastMessageWithPrefix("/typing-end", username, client);
                 }
                 else
@@ -139,8 +142,9 @@ class Program
                 semaphore.Release();
             }
 
+            // [PERBAIKAN 1]: Mengirim notifikasi dan daftar user segera setelah keluar
             await BroadcastMessage($"[SYSTEM] {username} telah keluar.", null);
-            await SendUserListToAllClients();
+            await SendUserListToAllClients(); // Mengirim daftar terbaru
 
             stream?.Dispose();
             client?.Close();

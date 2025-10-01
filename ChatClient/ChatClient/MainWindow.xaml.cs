@@ -8,6 +8,7 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Threading;
+using System.Windows.Controls;
 
 namespace ChatClient
 {
@@ -43,14 +44,10 @@ namespace ChatClient
             chatHistoryFilePath = Path.Combine(chatHistoryFolder, "chat_history.log");
         }
 
-        // Metode baru untuk menginisialisasi tema dan riwayat chat saat jendela dimuat
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            // Atur tema default (Dark Mode) secara manual
-            // Ini akan memicu event Checked, tetapi pada saat ini
-            // semua elemen UI sudah diinisialisasi.
+            // Atur tema default setelah semua komponen dimuat.
             DarkModeRadio.IsChecked = true;
-
             LoadChatHistory();
         }
 
@@ -132,6 +129,7 @@ namespace ChatClient
                             string formattedMessage = "";
                             if (message.StartsWith("/users "))
                             {
+                                // Menerima dan memperbarui daftar pengguna
                                 string[] users = message.Substring("/users ".Length).Split(',');
                                 lstUsers.Items.Clear();
                                 foreach (var user in users)
@@ -150,10 +148,12 @@ namespace ChatClient
                             }
                             else if (message.StartsWith("/typing-start "))
                             {
+                                // Menampilkan indikator typing
                                 TypingIndicator.Text = $"{message.Substring("/typing-start ".Length)} sedang mengetik...";
                             }
                             else if (message.StartsWith("/typing-end "))
                             {
+                                // Menghilangkan indikator typing
                                 TypingIndicator.Text = "";
                             }
                             else
@@ -226,21 +226,31 @@ namespace ChatClient
         {
             if (client != null && client.Connected)
             {
-                if (!isTyping)
+                if (!isTyping && !string.IsNullOrWhiteSpace(txtMessage.Text))
                 {
+                    // Kirim sinyal start typing hanya jika ada teks
                     await SendSpecialMessageAsync("/typing-start");
                     isTyping = true;
                 }
             }
+            // Reset timer: jika user mengetik lagi dalam 1.5s, timer diset ulang
             typingTimer.Stop();
             typingTimer.Start();
+
+            // Hentikan typing jika TextBox kosong
+            if (string.IsNullOrWhiteSpace(txtMessage.Text) && isTyping)
+            {
+                typingTimer.Stop();
+                await SendSpecialMessageAsync("/typing-end");
+                isTyping = false;
+            }
         }
 
         private async Task SendSpecialMessageAsync(string message)
         {
             try
             {
-                if (stream != null && stream.CanWrite)
+                if (stream != null && stream.CanWrite && client.Connected)
                 {
                     byte[] messageBytes = Encoding.UTF8.GetBytes(message);
                     await stream.WriteAsync(messageBytes, 0, messageBytes.Length);
@@ -259,7 +269,7 @@ namespace ChatClient
             try
             {
                 string messageToSend = txtMessage.Text;
-                if (stream != null && stream.CanWrite)
+                if (stream != null && stream.CanWrite && client.Connected)
                 {
                     byte[] messageBytes = Encoding.UTF8.GetBytes(messageToSend);
                     await stream.WriteAsync(messageBytes, 0, messageBytes.Length);
@@ -296,14 +306,19 @@ namespace ChatClient
             }
         }
 
-        private void lstUsers_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        // Metode untuk menangani klik tombol PM
+        private void PmButton_Click(object sender, RoutedEventArgs e)
         {
-            if (lstUsers.SelectedItem != null)
+            Button button = sender as Button;
+            if (button != null)
             {
-                string targetUser = lstUsers.SelectedItem.ToString();
-                txtMessage.Text = $"/w {targetUser} ";
-                txtMessage.Focus();
-                txtMessage.CaretIndex = txtMessage.Text.Length;
+                string targetUser = button.CommandParameter as string;
+                if (!string.IsNullOrEmpty(targetUser))
+                {
+                    txtMessage.Text = $"/w {targetUser} ";
+                    txtMessage.Focus();
+                    txtMessage.CaretIndex = txtMessage.Text.Length;
+                }
             }
         }
 
@@ -345,28 +360,30 @@ namespace ChatClient
 
         private void ApplyDarkMode()
         {
-            MainGrid.Background = (SolidColorBrush)new BrushConverter().ConvertFrom("#36393F");
-            SidebarBorder.Background = (SolidColorBrush)new BrushConverter().ConvertFrom("#2F3136");
-            IpTextBlock.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#B9BBBE");
-            PortTextBlock.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#B9BBBE");
-            UsernameTextBlock.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#B9BBBE");
-            ThemeTextBlock.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#B9BBBE");
-            LightModeRadio.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#B9BBBE");
-            DarkModeRadio.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#B9BBBE");
-            lstChat.Background = (SolidColorBrush)new BrushConverter().ConvertFrom("#36393F");
-            lstChat.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#DCDDDE");
-            lstUsers.Background = (SolidColorBrush)new BrushConverter().ConvertFrom("#2F3136");
-            lstUsers.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#DCDDDE");
-            txtMessage.Background = (SolidColorBrush)new BrushConverter().ConvertFrom("#40444B");
-            txtMessage.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#DCDDDE");
-            UserListHeader.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#8E9297");
-            TypingIndicator.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#7289DA");
-            btnSend.Background = (SolidColorBrush)new BrushConverter().ConvertFrom("#7289DA");
-            btnSend.BorderBrush = (SolidColorBrush)new BrushConverter().ConvertFrom("#7289DA");
-            btnConnect.Background = (SolidColorBrush)new BrushConverter().ConvertFrom("#7289DA");
-            btnConnect.BorderBrush = (SolidColorBrush)new BrushConverter().ConvertFrom("#7289DA");
-            btnDisconnect.Background = (SolidColorBrush)new BrushConverter().ConvertFrom("#FF5733");
-            btnDisconnect.BorderBrush = (SolidColorBrush)new BrushConverter().ConvertFrom("#FF5733");
+            BrushConverter converter = new BrushConverter();
+
+            MainGrid.Background = (SolidColorBrush)converter.ConvertFrom("#36393F");
+            SidebarBorder.Background = (SolidColorBrush)converter.ConvertFrom("#2F3136");
+            IpTextBlock.Foreground = (SolidColorBrush)converter.ConvertFrom("#B9BBBE");
+            PortTextBlock.Foreground = (SolidColorBrush)converter.ConvertFrom("#B9BBBE");
+            UsernameTextBlock.Foreground = (SolidColorBrush)converter.ConvertFrom("#B9BBBE");
+            ThemeTextBlock.Foreground = (SolidColorBrush)converter.ConvertFrom("#B9BBBE");
+            LightModeRadio.Foreground = (SolidColorBrush)converter.ConvertFrom("#B9BBBE");
+            DarkModeRadio.Foreground = (SolidColorBrush)converter.ConvertFrom("#B9BBBE");
+            lstChat.Background = (SolidColorBrush)converter.ConvertFrom("#36393F");
+            lstChat.Foreground = (SolidColorBrush)converter.ConvertFrom("#DCDDDE");
+            lstUsers.Background = (SolidColorBrush)converter.ConvertFrom("#2F3136");
+            lstUsers.Foreground = (SolidColorBrush)converter.ConvertFrom("#DCDDDE");
+            txtMessage.Background = (SolidColorBrush)converter.ConvertFrom("#40444B");
+            txtMessage.Foreground = (SolidColorBrush)converter.ConvertFrom("#DCDDDE");
+            UserListHeader.Foreground = (SolidColorBrush)converter.ConvertFrom("#8E9297");
+            TypingIndicator.Foreground = (SolidColorBrush)converter.ConvertFrom("#7289DA");
+            btnSend.Background = (SolidColorBrush)converter.ConvertFrom("#7289DA");
+            btnSend.BorderBrush = (SolidColorBrush)converter.ConvertFrom("#7289DA");
+            btnConnect.Background = (SolidColorBrush)converter.ConvertFrom("#7289DA");
+            btnConnect.BorderBrush = (SolidColorBrush)converter.ConvertFrom("#7289DA");
+            btnDisconnect.Background = (SolidColorBrush)converter.ConvertFrom("#FF5733");
+            btnDisconnect.BorderBrush = (SolidColorBrush)converter.ConvertFrom("#FF5733");
         }
     }
 }
