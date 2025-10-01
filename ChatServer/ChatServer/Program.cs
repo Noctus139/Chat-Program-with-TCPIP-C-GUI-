@@ -77,7 +77,6 @@ class Program
                     semaphore.Release();
                 }
 
-                // [PERBAIKAN 1]: Mengirim notifikasi dan daftar user segera setelah join
                 await BroadcastMessage($"[SYSTEM] {username} telah bergabung.", null);
                 await SendUserListToAllClients();
             }
@@ -89,6 +88,7 @@ class Program
 
                 string message = Encoding.UTF8.GetString(buffer, 0, bytesRead).Trim();
 
+                // Cek pesan PM (/w) - SELALU DICATAT
                 if (message.StartsWith("/w "))
                 {
                     int spaceIndex = message.IndexOf(' ', 3);
@@ -97,20 +97,27 @@ class Program
                         string targetUsername = message.Substring(3, spaceIndex - 3);
                         string privateMessage = message.Substring(spaceIndex + 1);
                         await SendMessage(client, $"[PM ke {targetUsername}] {username}: {privateMessage}", targetUsername);
+
+                        // Logging PM
                         Console.WriteLine($"[CHAT] PM dari {username} ke {targetUsername}: {privateMessage}");
                         File.AppendAllText("server_log.txt", $"[CHAT] {DateTime.Now}: PM dari {username} ke {targetUsername}: {privateMessage}\n");
                     }
                 }
-                else if (message == "/typing-start")
+                // Cek sinyal Protokol Internal (Typing, dll.) - TIDAK DICATAT
+                else if (message.StartsWith("/"))
                 {
-                    // [PERBAIKAN 3]: Server menerima sinyal typing dan menyiarkannya
-                    await BroadcastMessageWithPrefix("/typing-start", username, client);
+                    // Hanya menangani sinyal protokol yang relevan tanpa logging
+                    if (message == "/typing-start")
+                    {
+                        await BroadcastMessageWithPrefix("/typing-start", username, client);
+                    }
+                    else if (message == "/typing-end")
+                    {
+                        await BroadcastMessageWithPrefix("/typing-end", username, client);
+                    }
+                    // Sinyal protokol lain diabaikan di sini
                 }
-                else if (message == "/typing-end")
-                {
-                    // [PERBAIKAN 3]: Server menerima sinyal typing-end dan menyiarkannya
-                    await BroadcastMessageWithPrefix("/typing-end", username, client);
-                }
+                // Pesan Broadcast biasa - SELALU DICATAT
                 else
                 {
                     Console.WriteLine($"[CHAT] {username}: {message}");
@@ -142,9 +149,8 @@ class Program
                 semaphore.Release();
             }
 
-            // [PERBAIKAN 1]: Mengirim notifikasi dan daftar user segera setelah keluar
             await BroadcastMessage($"[SYSTEM] {username} telah keluar.", null);
-            await SendUserListToAllClients(); // Mengirim daftar terbaru
+            await SendUserListToAllClients();
 
             stream?.Dispose();
             client?.Close();

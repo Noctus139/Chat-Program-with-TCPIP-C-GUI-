@@ -1,0 +1,21 @@
+[LOG] 10/1/2025 11:28:31 PM: Klien 'test1' terhubung.
+[LOG] 10/1/2025 11:28:43 PM: Klien 'test2' terhubung.
+[CHAT] 10/1/2025 11:28:51 PM: test1: test
+[CHAT] 10/1/2025 11:28:55 PM: test2: test
+[CHAT] 10/1/2025 11:29:16 PM: PM dari test1 ke test2: halo
+[CHAT] 10/1/2025 11:29:16 PM: test1: /typing-end/typing-end
+[LOG] 10/1/2025 11:29:20 PM: Klien 'test2' terputus.
+[LOG] 10/1/2025 11:29:21 PM: Klien 'test1' terputus.
+[LOG] 10/1/2025 11:40:30 PM: Klien 'user1' terhubung.
+[LOG] 10/1/2025 11:40:41 PM: Klien 'user2' terhubung.
+[CHAT] 10/1/2025 11:40:44 PM: user2: test
+[CHAT] 10/1/2025 11:40:49 PM: user1: test
+[CHAT] 10/1/2025 11:41:02 PM: PM dari user1 ke user2: halo
+[LOG] 10/1/2025 11:41:08 PM: Klien 'user2' terputus.
+[LOG] 10/1/2025 11:41:10 PM: Klien 'user2' terhubung.
+[CHAT] 10/1/2025 11:41:13 PM: PM dari user2 ke user1: halo
+[CHAT] 10/1/2025 11:41:20 PM: user2: test test test
+[LOG] 10/1/2025 11:41:27 PM: Klien 'user2' terputus.
+[ERROR] 10/1/2025 11:41:29 PM: Error saat menangani klien 'user1': Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+[LOG] 10/1/2025 11:41:29 PM: Klien 'user1' terputus.

@@ -1,0 +1,14 @@
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\bin\Release\ChatClient.exe.config
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\bin\Release\ChatClient.exe
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\bin\Release\ChatClient.pdb
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Release\ChatClient.csproj.AssemblyReference.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Release\MainWindow.baml
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Release\MainWindow.g.cs
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Release\App.g.cs
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Release\ChatClient_MarkupCompile.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Release\ChatClient.g.resources
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Release\ChatClient.Properties.Resources.resources
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Release\ChatClient.csproj.GenerateResource.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Release\ChatClient.csproj.CoreCompileInputs.cache
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Release\ChatClient.exe
+D:\Yoga\Kuliah\Semester 5\Jaringan\Chat Program with TCPIP (C# + GUI)\ChatClient\ChatClient\obj\Release\ChatClient.pdb

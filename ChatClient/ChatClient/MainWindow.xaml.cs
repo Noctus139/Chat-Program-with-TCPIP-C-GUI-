@@ -24,7 +24,7 @@ namespace ChatClient
         public MainWindow()
         {
             InitializeComponent();
-            this.Title = "Chat App Kelompok 8";
+            this.Title = "Chat App Kelompok 7";
 
             typingTimer = new DispatcherTimer();
             typingTimer.Interval = TimeSpan.FromSeconds(1.5);
